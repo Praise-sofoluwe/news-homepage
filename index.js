@@ -5,7 +5,7 @@ const nav = document.querySelector(".nav-shadow");
 
 openMenu.addEventListener("click", () => {
     primaryNav.classList.add("show");
-    nav.classList.add(`shadow`);
+    nav.classList.add("shadow");
 })
 
 closeMenu.addEventListener('click', () => {
